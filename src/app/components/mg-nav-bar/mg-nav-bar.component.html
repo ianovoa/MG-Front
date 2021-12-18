@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="../../../assets/images/icon.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        Safe House
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul id="navbarList" class="navbar-nav">
+          <li id="home" class="nav-item" (click)="navClick($event.currentTarget)">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li id="ranking" class="nav-item" (click)="navClick($event.currentTarget)">
+            <a class="nav-link" href="#">Ranking</a>
+          </li>
+          <li id="about" class="nav-item" (click)="navClick($event.currentTarget)">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <form class="container-fluid justify-content-end">
+      <button class="btn btn-outline-success me-2" type="button">Sign On</button>
+      <button class="btn btn-outline-secondary" type="button">Sign In</button>
+    </form>
+  </nav>

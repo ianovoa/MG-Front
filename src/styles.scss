@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+//Colors styles
+.firstColor {
+    color: #C3073F;
+}
+
+.secondColor {
+    color: #950740;
+}
+
+.thirdColor {
+    color: #6F2232;
+}
+
+.fourthColor {
+    color: #4E4E50;
+}
+
+.backgroundColor {
+    color: #1a1a1d;
+}
+
+//Fonts styles
+@font-face {
+    font-family: 'SourceSerifPro-BlackItalic';
+    src: local('SourceSerifPro-BlackItalic') url(./assets/fonts/SourceSerifPro-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: 'SourceSerifPro-Italic';
+    src: local('SourceSerifPro-Italic') url(./assets/fonts/SourceSerifPro-Italic.ttf);
+}
+
+//General styles
+* {
+    font-family: 'SourceSerifPro-Italic', Arial, Helvetica, sans-serif;
+}
